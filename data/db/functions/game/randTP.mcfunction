@@ -1,0 +1,1 @@
+spreadplayers 250 -249 500 10 under 8 false @a
