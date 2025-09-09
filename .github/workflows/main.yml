@@ -22,5 +22,5 @@ jobs:
           password: ${{ secrets.SERVER_PASS }}
           port: ${{ secrets.SERVER_PORT }}
           local_path: "./"
-          remote_path: "/world/datapacks"
+          remote_path: "/world/datapacks/${{ github.event.repository.name }}"
           sftp_only: true
